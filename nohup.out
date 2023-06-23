@@ -1,0 +1,178 @@
+[2023-06-21 13:18:41 +0000] [24864] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 13:18:41 +0000] [24864] [INFO] Listening at: http://127.0.0.1:3000 (24864)
+[2023-06-21 13:18:41 +0000] [24864] [INFO] Using worker: sync
+[2023-06-21 13:18:41 +0000] [24865] [INFO] Booting worker with pid: 24865
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admi
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+[2023-06-21 13:30:44 +0000] [24950] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 13:30:44 +0000] [24950] [ERROR] Connection in use: ('0.0.0.0', 3000)
+[2023-06-21 13:30:44 +0000] [24950] [ERROR] Retrying in 1 second.
+[2023-06-21 13:30:45 +0000] [24950] [ERROR] Connection in use: ('0.0.0.0', 3000)
+[2023-06-21 13:30:45 +0000] [24950] [ERROR] Retrying in 1 second.
+[2023-06-21 13:30:46 +0000] [24950] [ERROR] Connection in use: ('0.0.0.0', 3000)
+[2023-06-21 13:30:46 +0000] [24950] [ERROR] Retrying in 1 second.
+[2023-06-21 13:30:47 +0000] [24950] [ERROR] Connection in use: ('0.0.0.0', 3000)
+[2023-06-21 13:30:47 +0000] [24950] [ERROR] Retrying in 1 second.
+[2023-06-21 13:30:48 +0000] [24950] [ERROR] Connection in use: ('0.0.0.0', 3000)
+[2023-06-21 13:30:48 +0000] [24950] [ERROR] Retrying in 1 second.
+[2023-06-21 13:30:49 +0000] [24950] [ERROR] Can't connect to ('0.0.0.0', 3000)
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /admin
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.0.103.225'. You may need to add '3.0.103.225' to ALLOWED_HOSTS.
+Bad Request: /
+[2023-06-21 13:35:05 +0000] [24865] [INFO] Worker exiting (pid: 24865)
+[2023-06-21 13:35:05 +0000] [24864] [INFO] Handling signal: term
+[2023-06-21 13:35:05 +0000] [24864] [WARNING] Worker with pid 24865 was terminated due to signal 15
+[2023-06-21 13:35:05 +0000] [24864] [INFO] Shutting down: Master
+[2023-06-21 13:40:03 +0000] [25064] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 13:40:03 +0000] [25064] [INFO] Listening at: http://0.0.0.0:3000 (25064)
+[2023-06-21 13:40:03 +0000] [25064] [INFO] Using worker: sync
+[2023-06-21 13:40:03 +0000] [25065] [INFO] Booting worker with pid: 25065
+Not Found: /
+Not Found: /
+Not Found: /Core/Skin/Login.aspx
+Not Found: /
+[2023-06-21 14:23:49 +0000] [25064] [INFO] Handling signal: term
+[2023-06-21 14:23:49 +0000] [25065] [INFO] Worker exiting (pid: 25065)
+[2023-06-21 14:23:49 +0000] [25064] [WARNING] Worker with pid 25065 was terminated due to signal 15
+[2023-06-21 14:23:49 +0000] [25064] [INFO] Shutting down: Master
+[2023-06-21 14:25:20 +0000] [25626] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 14:25:20 +0000] [25626] [INFO] Listening at: http://0.0.0.0:3000 (25626)
+[2023-06-21 14:25:20 +0000] [25626] [INFO] Using worker: sync
+[2023-06-21 14:25:20 +0000] [25627] [INFO] Booting worker with pid: 25627
+Not Found: /
+[2023-06-21 14:41:07 +0000] [25626] [INFO] Handling signal: term
+[2023-06-21 14:41:07 +0000] [25627] [INFO] Worker exiting (pid: 25627)
+[2023-06-21 14:41:07 +0000] [25626] [WARNING] Worker with pid 25627 was terminated due to signal 15
+[2023-06-21 14:41:07 +0000] [25626] [INFO] Shutting down: Master
+[2023-06-21 14:44:12 +0000] [25789] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 14:44:12 +0000] [25789] [INFO] Listening at: http://0.0.0.0:3000 (25789)
+[2023-06-21 14:44:12 +0000] [25789] [INFO] Using worker: sync
+[2023-06-21 14:44:12 +0000] [25790] [INFO] Booting worker with pid: 25790
+[2023-06-21 14:55:46 +0000] [25790] [INFO] Worker exiting (pid: 25790)
+[2023-06-21 14:55:46 +0000] [25789] [INFO] Handling signal: term
+[2023-06-21 14:55:46 +0000] [25789] [WARNING] Worker with pid 25790 was terminated due to signal 15
+[2023-06-21 14:55:46 +0000] [25789] [INFO] Shutting down: Master
+[2023-06-21 15:03:47 +0000] [26097] [INFO] Starting gunicorn 20.1.0
+[2023-06-21 15:03:47 +0000] [26097] [INFO] Listening at: http://127.0.0.1:3000 (26097)
+[2023-06-21 15:03:47 +0000] [26097] [INFO] Using worker: sync
+[2023-06-21 15:03:47 +0000] [26098] [INFO] Booting worker with pid: 26098
+[2023-06-21 15:32:55 +0000] [26097] [INFO] Handling signal: hup
+[2023-06-21 15:32:55 +0000] [26097] [INFO] Hang up: Master
+[2023-06-21 15:32:55 +0000] [26098] [INFO] Worker exiting (pid: 26098)
+[2023-06-21 15:32:55 +0000] [26097] [WARNING] Worker with pid 26098 was terminated due to signal 15
+[2023-06-21 15:32:55 +0000] [26394] [INFO] Booting worker with pid: 26394
